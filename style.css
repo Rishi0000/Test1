@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+:root{
+    --first_color:#f7f5f5;
+    --second_color:#BFDBFE;
+}
+body{
+    font-family: 'Fredoka One', cursive;
+    color: dimgrey;
+}
+.un_li{
+    list-style: none;
+    text-align: right;
+}
+.list{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.none{
+    text-decoration: none;
+    color: dimgrey;
+}
+.Nav_name{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.navigation{
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 1px 1px 2px rgb(204, 202, 202);
+    background-color: var(--second_color);
+}
+.head .head_img{
+    max-width: 500px;
+    display: block;
+    /* padding: 20px 20px 20px 20px; */
+    margin: auto;
+}
+.head .head_title{
+    text-align: center;
+    color: rgb(165, 59, 59);
+    padding-bottom: 30px;
+}
+.head{
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+/* section1 */
+.first{
+    text-align: center;
+    padding: 30px 150px 30px 150px;
+    margin: auto;
+    background-color: var(--first_color);
+}
+.circom{
+    text-align: center;
+}
+.link1{
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 2px 4px #3f3f41;
+    background-color: darkgray;
+    padding: 5px 10px 5px 20px;
+    color: black;
+}
+.second{
+    text-align: center;
+    padding: 30px 150px 30px 150px;
+    margin: auto;
+    
+}
+.cirgyan{
+    text-align: center;
+}
+.link2{
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 2px 4px #3f3f41;
+    background-color: darkgray;
+    padding: 5px 20px 5px 20px;
+    color: black;
+    
+}
+.social{
+    width: 30px;
+}
+.social_li{
+    list-style: none;
+    text-align: center;
+}
+.so_item{
+    display: inline;
+    padding: 30px 35px 30px 35px ;
+}
+.p_tag{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 30px;
+}
+footer{
+    background-color:var(--second_color) ;
+    padding: 20px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    border-top-width: thick;
+}
